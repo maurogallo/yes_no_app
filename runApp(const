@@ -1,0 +1,27 @@
+En l¡nea: 1 Car cter: 329
++ ...    import \'package:flutter/material.dart\';,`n      ",`n void main() ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Token 'package:flutter/material.dart\';,`n      ",`n void main() = 
+${1:MyApp}());,`n ,`n class ${1:MyApp} extends StatelessWidget {,`n   const 
+${1:MyApp}({super.key});,`n ,`n   @override,`n   Widget build(BuildContext context) 
+{,`n     return MaterialApp(,`n       title: '${2:Yes/No App}',,`n       theme: 
+ThemeData(primarySwatch: Colors.blue),,`n       home: Scaffold(,`n         appBar: 
+AppBar(title: const Text('${3:Yes / No}')),,`n         body: const Center(child: 
+Text('${4:Hello, world!}')),,`n       ),,`n     );,`n   },`n }"`n    ]`n  }'' 
+inesperado en la expresi¢n o la instrucci¢n.
+En l¡nea: 1 Car cter: 914
++ ...  }"`n    ]`n  }'; $new = $text.Substring(0,$idx) + $snippet + \n}; Se ...
++                                                                  ~
+Debe proporcionar una expresi¢n de valor despu‚s del operador '+'.
+En l¡nea: 1 Car cter: 915
++ ... `n    ]`n  }'; $new = $text.Substring(0,$idx) + $snippet + \n}; Set-C ...
++                                                                ~~
+Token '\n' inesperado en la expresi¢n o la instrucci¢n.
+En l¡nea: 1 Car cter: 1010
++ ... h -Value $new -Encoding UTF8; Write-Host 'Inserted block (simple)'; }
++                                                                         ~
+Token '}' inesperado en la expresi¢n o la instrucci¢n.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordExcepti 
+   on
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

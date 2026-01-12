@@ -1,0 +1,237 @@
+﻿{
+    "emmet.variables":  {
+                            "lang":  "es"
+                        },
+    "cSpell.diagnosticLevel":  "Hint",
+    "jdk.jdkhome":  "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.14.7-hotspot",
+    "remote.SSH.remotePlatform":  {
+                                      "168.231.66.55":  "linux",
+                                      "192.168.128.9":  "linux"
+                                  },
+    "editor.unicodeHighlight.includeComments":  true,
+    "java.compile.nullAnalysis.mode":  "automatic",
+    "java.import.gradle.java.home":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6",
+    "terminal.integrated.enablePersistentSessions":  false,
+    "editor.fontSize":  18,
+    "workbench.editorAssociations":  {
+                                         "*.copilotmd":  "vscode.markdown.preview.editor",
+                                         "*.sqlite":  "default"
+                                     },
+    "editor.snippetSuggestions":  "top",
+    "java.test.config":  {
+                             "vmArgs":  [
+                                            "-Dstdout.encoding=UTF-8",
+                                            "-Dstderr.encoding=UTF-8"
+                                        ]
+                         },
+    "workbench.editor.empty.hint":  "hidden",
+    "dart.debugExternalPackageLibraries":  false,
+    "[yaml]":  {
+                   "editor.insertSpaces":  true,
+                   "editor.tabSize":  2,
+                   "editor.autoIndent":  "keep",
+                   "diffEditor.ignoreTrimWhitespace":  false,
+                   "editor.defaultColorDecorators":  "never",
+                   "editor.quickSuggestions":  {
+                                                   "strings":  true,
+                                                   "other":  true,
+                                                   "comments":  false
+                                               }
+               },
+    "workbench.editor.revealIfOpen":  true,
+    "jdk.telemetry.enabled":  false,
+    "dart.openDevTools":  "flutter",
+    "workbench.iconTheme":  "material-icon-theme",
+    "[javascriptreact]":  {
+                              "editor.defaultFormatter":  "esbenp.prettier-vscode"
+                          },
+    "[github-actions-workflow]":  {
+                                      "editor.defaultFormatter":  "redhat.vscode-yaml"
+                                  },
+    "java.maxConcurrentBuilds":  12,
+    "[dockercompose]":  {
+                            "editor.insertSpaces":  true,
+                            "editor.tabSize":  2,
+                            "editor.autoIndent":  "advanced",
+                            "editor.quickSuggestions":  {
+                                                            "other":  true,
+                                                            "comments":  false,
+                                                            "strings":  true
+                                                        },
+                            "editor.defaultFormatter":  "redhat.vscode-yaml"
+                        },
+    "workbench.colorTheme":  "Cursor Dark High Contrast",
+    "java.dependency.packagePresentation":  "hierarchical",
+    "editor.tabCompletion":  "on",
+    "terminal.integrated.profiles.windows":  {
+                                                 "JavaSE-17 LTS":  {
+                                                                       "overrideName":  true,
+                                                                       "env":  {
+                                                                                   "PATH":  "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.14.7-hotspot\\bin;${env:PATH}",
+                                                                                   "JAVA_HOME":  "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.14.7-hotspot"
+                                                                               },
+                                                                       "path":  "cmd"
+                                                                   },
+                                                 "JavaSE-21 LTS":  {
+                                                                       "overrideName":  true,
+                                                                       "env":  {
+                                                                                   "PATH":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6\\bin;${env:PATH}",
+                                                                                   "JAVA_TOOL_OPTIONS":  "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                                                                                   "JAVA_HOME":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6"
+                                                                               },
+                                                                       "path":  "cmd",
+                                                                       "args":  [
+                                                                                    "/k",
+                                                                                    "chcp",
+                                                                                    "65001"
+                                                                                ]
+                                                                   },
+                                                 "JavaSE-23":  {
+                                                                   "overrideName":  true,
+                                                                   "env":  {
+                                                                               "PATH":  "C:\\Users\\mauro\\.jdks\\openjdk-23.0.2\\bin;${env:PATH}",
+                                                                               "JAVA_TOOL_OPTIONS":  "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                                                                               "JAVA_HOME":  "C:\\Users\\mauro\\.jdks\\openjdk-23.0.2"
+                                                                           },
+                                                                   "path":  "cmd",
+                                                                   "args":  [
+                                                                                "/k",
+                                                                                "chcp",
+                                                                                "65001"
+                                                                            ]
+                                                               },
+                                                 "JavaSE-24":  {
+                                                                   "overrideName":  true,
+                                                                   "env":  {
+                                                                               "PATH":  "C:\\Users\\mauro\\.jdks\\openjdk-24.0.2+12-54\\bin;${env:PATH}",
+                                                                               "JAVA_TOOL_OPTIONS":  "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                                                                               "JAVA_HOME":  "C:\\Users\\mauro\\.jdks\\openjdk-24.0.2+12-54"
+                                                                           },
+                                                                   "path":  "cmd",
+                                                                   "args":  [
+                                                                                "/k",
+                                                                                "chcp",
+                                                                                "65001"
+                                                                            ]
+                                                               },
+                                                 "JavaSE-25 LTS":  {
+                                                                       "overrideName":  true,
+                                                                       "env":  {
+                                                                                   "PATH":  "C:\\Users\\mauro\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
+                                                                                   "JAVA_TOOL_OPTIONS":  "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                                                                                   "JAVA_HOME":  "C:\\Users\\mauro\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
+                                                                               },
+                                                                       "path":  "cmd",
+                                                                       "args":  [
+                                                                                    "/k",
+                                                                                    "chcp",
+                                                                                    "65001"
+                                                                                ]
+                                                                   }
+                                             },
+    "trailing-spaces.includeEmptyLines":  false,
+    "terminal.integrated.tabs.hideCondition":  "never",
+    "java.configuration.runtimes":  [
+                                        {
+                                            "name":  "JavaSE-17",
+                                            "path":  "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.14.7-hotspot"
+                                        },
+                                        {
+                                            "name":  "JavaSE-21",
+                                            "path":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6"
+                                        },
+                                        {
+                                            "name":  "JavaSE-23",
+                                            "path":  "C:\\Users\\mauro\\.jdks\\openjdk-23.0.2"
+                                        },
+                                        {
+                                            "name":  "JavaSE-24",
+                                            "path":  "C:\\Users\\mauro\\.jdks\\openjdk-24.0.2+12-54"
+                                        },
+                                        {
+                                            "name":  "JavaSE-25",
+                                            "path":  "C:\\Users\\mauro\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest",
+                                            "default":  true
+                                        }
+                                    ],
+    "java.configuration.updateBuildConfiguration":  "automatic",
+    "files.eol":  "\n",
+    "git.autofetch":  true,
+    "workbench.colorCustomizations":  {
+                                          "statusBar.background":  "#121016",
+                                          "statusBar.debuggingBackground":  "#121016",
+                                          "statusBar.debuggingForeground":  "#525156",
+                                          "debugToolBar.background":  "#121016"
+                                      },
+    "java.debug.settings.hotCodeReplace":  "auto",
+    "dart.flutterSdkPath":  "C:\\Users\\mauro\\Develop\\flutter",
+    "java.import.gradle.home":  "C:\\Users\\mauro\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
+    "[dart]":  {
+                   "editor.formatOnSave":  false,
+                   "editor.formatOnType":  true,
+                   "editor.selectionHighlight":  false,
+                   "editor.suggest.snippetsPreventQuickSuggestions":  false,
+                   "editor.suggestSelection":  "first",
+                   "editor.tabCompletion":  "onlySnippets",
+                   "editor.wordBasedSuggestions":  "off"
+               },
+    "java.sources.organizeImports.staticStarThreshold":  1,
+    "terminal.integrated.env.windows":  {
+                                            "JAVA_HOME":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6",
+                                            "PATH":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6\\bin;${env:PATH}"
+                                        },
+    "security.workspace.trust.untrustedFiles":  "open",
+    "editor.suggest.showSnippets":  true,
+    "maven.executable.path":  "C:\\Users\\mauro\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
+    "dart.debugSdkLibraries":  false,
+    "maven.terminal.customEnv":  [
+                                     {
+                                         "environmentVariable":  "JAVA_HOME",
+                                         "value":  "C:\\Users\\mauro\\.jdks\\corretto-21.0.6"
+                                     }
+                                 ],
+    "bracket-pair-colorizer-2.depreciation-notice":  false,
+    "terminal.integrated.automationProfile.windows":  {
+                                                          "path":  "cmd"
+                                                      },
+    "[bat]":  {
+                  "files.eol":  "\r\n"
+              },
+    "mssql.connectionGroups":  [
+                                   {
+                                       "name":  "ROOT",
+                                       "id":  "787372BD-820E-4246-9AE8-8C0AC828C14A"
+                                   }
+                               ],
+    "python.defaultInterpreterPath":  "c:\\Python313\\python.exe",
+    "vs-kubernetes":  {
+                          "vscode-kubernetes.helm-path-windows":  "C:\\Users\\mauro\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+                          "vscode-kubernetes.kubectl-path-windows":  "C:\\Users\\mauro\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+                          "vscode-kubernetes.minikube-path-windows":  "C:\\Users\\mauro\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+                      },
+    "editor.rulers":  [
+                          {
+                              "column":  80,
+                              "color":  "#00FF0010"
+                          },
+                          {
+                              "column":  100,
+                              "color":  "#BDB76B15"
+                          },
+                          {
+                              "column":  120,
+                              "color":  "#FA807219"
+                          }
+                      ],
+    "trailing-spaces.backgroundColor":  "rgba(255,0,0,0.1)",
+    "docker.extension.enableComposeLanguageServer":  false,
+    "editor.linkedEditing":  true,
+    "git.openRepositoryInParentFolders":  "never",
+    "editor.minimap.enabled":  false,
+    "php.validate.executablePath":  "",
+    "java.configuration.detectJdksAtStart":  false,
+    "terminal.integrated.sendKeybindingsToShell":  true,
+    "redhat.telemetry.enabled":  true,
+    "terminal.integrated.defaultProfile.windows":  "JavaSE-21 LTS",
+    "terminal.integrated.enableMultiLinePasteWarning":  "never"
+}

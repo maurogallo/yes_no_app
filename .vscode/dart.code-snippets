@@ -1,0 +1,27 @@
+{
+  "Material App": {
+    "prefix": "materialapp",
+    "description": "Create a MaterialApp skeleton",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "void main() => runApp(const ${1:MyApp}());",
+      "",
+      "class ${1:MyApp} extends StatelessWidget {",
+      "  const ${1:MyApp}({super.key});",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return MaterialApp(",
+      "      title: '${2:Yes/No App}',",
+      "      theme: ThemeData(primarySwatch: Colors.blue),",
+      "      home: Scaffold(",
+      "        appBar: AppBar(title: const Text('${3:Yes / No}')) ,",
+      "        body: const Center(child: Text('${4:Hello, world!}')) ,",
+      "      ),",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}
